@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="description" content="De Clubhuisconsulent helpt sportverenigingen hun clubhuis winstgevend te maken met advies over horeca, HACCP, verpachting, training en data-analyse."/>
+<title>De Clubhuisconsulent - Optimaliseer uw Clubhuis Horeca</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Montserrat:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
+<!-- <style>
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.hero video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+}
+.hero-content {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0 20px;
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+button {
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #005f99; /* Nieuwe kleur */
+}
+button:hover {
+  background-color: #004c7d; /* Donkerdere hover kleur */
+}
+.overlay {
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background: rgba(0,0,0,0.4);
+  z-index:0;
+}
+
+/* Navbar styling */
+.navbar {
+  background-color: #003366;
+  padding: 15px 20px;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.logo {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+  color: white;
+}
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+
+/* USP sectie */
+.usps {
+  padding: 50px 20px;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+.usps h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+.usp-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.usp-item {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  flex: 1 1 200px;
+  max-width: 250px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  font-size: 1.1em;
+}
+
+/* Intro sectie */
+.intro {
+  padding: 50px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+.intro h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.intro p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+/* CTA Secondary */
+.cta-secondary {
+  background-color: #005f99; /* Blauwe achtergrond */
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+.cta-secondary h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+.cta-secondary p {
+  font-size: 1.2em;
+  margin-bottom: 25px;
+}
+.cta-secondary button {
+  background-color: white;
+  color: #005f99; /* Blauwe tekst */
+  font-weight: bold;
+}
+.cta-secondary button:hover {
+  background-color: #f0f0f0;
+}
+
+/* Footer */
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+/* Stats sectie */
+.stats {
+  padding: 50px 20px;
+  background-color: #e6f2ff; /* Lichte blauwe achtergrond */
+  text-align: center;
+}
+.stats h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+.stats-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.stat-number {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #005f99; /* Blauwe kleur */
+}
+.stat-label {
+  font-size: 1.1em;
+  color: #333;
+}
+
+/* Testimonials sectie */
+.testimonials {
+  padding: 50px 20px;
+  text-align: center;
+}
+.testimonials h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+.testimonial-slider {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden; /* Basic setup for slider */
+}
+.testimonial-item {
+  display: none; /* Hide all items by default */
+  padding: 20px;
+  font-style: italic;
+  line-height: 1.6;
+}
+.testimonial-item.active {
+  display: block; /* Show active item */
+}
+.testimonial-item cite {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  font-style: normal;
+  color: #555;
+}
+</style> -->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <div class="logo">De Clubhuisconsulent</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="over.html">Over</a></li>
+        <li><a href="diensten.html">Diensten</a></li>
+      <li><a href="cases.html">Cases</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="hero">
+  <video autoplay muted loop playsinline>
+    <source src="https://replicate.delivery/xezq/fec9GsPZgfFDQpKfVrhF0C4qy6HoNvVElmfAfkvsMeFCsM2PKA/tmpnzntfcoh.mp4" type="video/mp4">
+    Uw browser ondersteunt deze video niet.
+  </video>
+  <div class="overlay"></div>
+  <div class="hero-content container">
+    <h1>Maak uw clubhuis winstgevend</h1>
+    <button class="btn">Plan een gratis gesprek</button>
+  </div>
+</div>
+
+<section class="usps section">
+  <div class="container">
+    <div class="section-title text-center"> <!-- Added text-center for this section -->
+      <h2>Waarom kiezen voor De Clubhuisconsulent?</h2>
+    </div>
+    <div class="usp-grid">
+      <div class="usp-item">✔ Meer winst uit uw clubhuis</div>
+      <div class="usp-item">✔ Praktische en haalbare adviezen</div>
+    <div class="usp-item">✔ 25+ jaar ervaring in verenigingsleven</div>
+      <div class="usp-item">✔ Begeleiding van A tot Z</div>
+    </div>
+  </div>
+</section>
+
+<section class="intro section">
+  <div class="container">
+    <div class="section-title text-center">
+       <h2>Uw partner voor een succesvol clubhuis</h2>
+    </div>
+    <p>De Clubhuisconsulent helpt sportverenigingen hun horeca te professionaliseren en winstgevender te maken. Met jarenlange ervaring in de branche en een praktische aanpak zorgen wij voor concrete resultaten.</p>
+  </div>
+</section>
+
+<section class="cta-secondary section">
+ <div class="container text-center">
+    <div class="section-title text-center">
+      <h2>Gratis Checklist Clubhuis Optimalisatie</h2>
+    </div>
+    <p>Ontvang direct praktische tips om uw clubhuis te verbeteren.</p>
+    <button class="btn btn-secondary">Download Checklist</button> <!-- Applied btn and btn-secondary -->
+  </div>
+</section>
+
+<section class="stats section">
+  <div class="container">
+     <div class="section-title text-center">
+       <h2>Concrete Resultaten</h2>
+     </div>
+     <div class="stats-grid">
+       <div class="stat-item">
+         <span class="stat-number">20-30%</span>
+         <span class="stat-label">Gemiddelde omzetstijging</span>
+       </div>
+       <div class="stat-item">
+         <span class="stat-number">15%</span>
+         <span class="stat-label">Gemiddelde kostenbesparing</span>
+       </div>
+       <div class="stat-item">
+         <span class="stat-number">50+</span>
+         <span class="stat-label">Getrainde vrijwilligersteams</span>
+       </div>
+     </div>
+  </div>
+</section>
+
+<section class="testimonials section">
+  <div class="container">
+    <div class="section-title text-center">
+      <h2>Wat zeggen onze klanten?</h2>
+    </div>
+    <div class="testimonial-slider">
+      <div class="testimonial-item active">
+        <p>"Dankzij Niels hebben we eindelijk grip op onze horeca. De omzet is significant gestegen!"</p>
+        <cite>- Bestuur Hockeyvereniging Amsterdam</cite>
+      </div>
+      <div class="testimonial-item">
+        <p>"De trainingen voor onze vrijwilligers waren praktisch en direct toepasbaar. Een aanrader!"</p>
+        <cite>- Barcommissie Tennisvereniging Regio A'dam</cite>
+      </div>
+      <!-- Add more testimonials as needed -->
+    </div>
+    <!-- Basic slider controls (optional, requires JS) -->
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+     <p>&copy; 2025 De Clubhuisconsulent. Alle rechten voorbehouden.</p>
+     <!-- Add other footer content like links if needed -->
+  </div>
+</footer>
+
+<script>
+  // Basic Testimonial Slider
+  const slider = document.querySelector('.testimonial-slider');
+  const items = slider.querySelectorAll('.testimonial-item');
+  let currentItem = 0;
+
+  function showItem(index) {
+    items.forEach((item, i) => {
+      item.classList.remove('active');
+      if (i === index) {
+        item.classList.add('active');
+      }
+    });
+  }
+
+  function nextItem() {
+    currentItem = (currentItem + 1) % items.length;
+    showItem(currentItem);
+  }
+
+  // Initial display
+  showItem(currentItem);
+
+  // Auto-play slider
+  setInterval(nextItem, 5000); // Change testimonial every 5 seconds
+</script>
+
+</body>
+</html>
